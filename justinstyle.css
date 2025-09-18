@@ -1,4 +1,6 @@
-   
+   br{
+    background-color:none; 
+   }
    h1{
         text-Align: center;
         font: bold 2.5em/3em 'times New romans', small-caps;       
@@ -85,9 +87,11 @@
     img{
         vertical-align: top;
         background-color: magenta;
+        float:left;
+        margin: 10px;
 }
-    p em{
-        color: gray;
+    p em{ 
+        color: gray; 
 }
     nav{
         background-color: magenta;
