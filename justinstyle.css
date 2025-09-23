@@ -33,6 +33,7 @@
         color:white;
         font-family:'Times New Roman', Times, serif;
         font-size: 1.1em;  
+        clear:left;
 }
     ul{
         font-family:'Times New Roman', Times, serif;
@@ -85,10 +86,11 @@
         font-family:'Times New Roman', Times, serif;
 }
     img{
-        vertical-align: top;
+        vertical-align:none;
         background-color: magenta;
         float:left;
-        margin: 10px;
+        margin: 5px;
+        clear: left;
 }
     p em{ 
         color: gray; 
