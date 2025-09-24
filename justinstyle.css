@@ -1,121 +1,146 @@
-   br{
-    background-color:none; 
+   br
+{
+    background-color:none;
    }
-   h1{
+   h1
+{
         text-Align: center;
-        font: bold 2.5em/3em 'times New romans', small-caps;       
-        font-size: 2.5em; 
+        font: bold 2.5em/3em 'times New romans',
+        small-caps;
+        font-size: 2.5em;
         line-height: 2em;
 }
-    h2{
-        font-size: 1.5em;  
+    h2
+{
+        font-size: 1.5em;
 }
-    h3{
+    h3
+{
         font-size: 1.1em;
 }
-    h6{
+    h6
+{
         line-height:normal;
 }
-    h1,h2,h3,h4,h5,h6{
-        font-family:'Times New Roman', Times, serif;  
+    h1,h2,h3,h4,h5,h6
+{
+        font-family:'Times New Roman', Times, serif;
         font-style: italic;
         color:yellow;
         background-color: black;
-        clear:left; 
+        clear:left;
 }
 
-    body{
-        background-color:rgb(34, 34, 255); 
+    body
+{
+        background-color:rgb(34, 34, 255);
         font-family:'Times New Roman';
-        font-size: 1.1em;  
+        font-size: 1.1em;
 }
-    p{
+    p
+{
         background-color:magenta;
         color:white;
         font-family:'Times New Roman', Times, serif;
-        font-size: 1.1em;  
+        font-size: 1.1em;
         clear:left;
 }
-    ul{
+    ul
+{
         font-family:'Times New Roman', Times, serif;
-        font-size: 1.1em;  
+        font-size: 1.1em;
         font-weight: bold;
         background-color:magenta;
         list-style-type:circle;
         list-style-position: outside;
 }
-    Ol{
+    Ol
+{
         font-family:'Times New Roman', Times, serif;
-        font-size: 1.1em;   
+        font-size: 1.1em;
         font-weight: bold;
         background-color:magenta;
         list-style-type:upper-roman;
         list-style-position: outside;
     }
-    #thankssection{
+    #thankssection
+{
         color: gray;
         font-family:'Times New Roman', Times, serif;
 }
-    #myhobbies{
+    #myhobbies
+{
         color:lightgray;
         font-family:'Times New Roman', Times, serif;
 }
-    .myhobies{
+    .myhobies
+{
         color: white;
         font-family:'Times New Roman', Times, serif;
 
 }
-    header{
-        font-style: italic;
-        color:yellow;
-        background-color: black; 
-        font-family:'Times New Roman', Times, serif;
-}
-    main{
-        font-style: italic;
-        color:yellow;  
-        font-family:'Times New Roman', Times, serif;         
-}
-    footer{
+    header
+{
         font-style: italic;
         color:yellow;
         background-color: black;
-        font-family:'Times New Roman', Times, serif; 
+        font-family:'Times New Roman', Times, serif;
 }
-    article{
+    main
+{
+        font-style: italic;
+        color:yellow;
+        font-family:'Times New Roman', Times, serif;
+}
+    footer
+{
+        font-style: italic;
+        color:yellow;
+        background-color: black;
+        font-family:'Times New Roman', Times, serif;
+}
+    article
+{
         font-style: italic;
         font-family:'Times New Roman', Times, serif;
 }
-    img{
-        vertical-align:none;
+    img
+{
+        vertical-align:middle;
         background-color: magenta;
         float:left;
         margin: 5px;
-        
 }
-    p em{ 
-        color: gray; 
+    p em
+{ 
+        color: gray;
 }
-    nav{
+    nav
+{
         background-color: magenta;
-        line-height:200%    
+        line-height:200%
 }
-    nav li{
+    nav li
+{
         display:inline;
         padding-right:40px;
-        list-style-type:none;   
+        list-style-type:none;
 }
-    nav a:link{
+    nav a:link
+{
         color:white;
         text-decoration: none;
 }
-    nav a:visited{
+    nav a:visited
+{
         color:white;
 }
-    nav a:hover{
-        text-decoration:underline;       
+    nav a:hover
+{
+        text-decoration:underline;
 }
-    nav a:active{
+    nav a:active
+{
         color:black;
         text-decoration:underline;
 }
