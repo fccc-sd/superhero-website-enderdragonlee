@@ -20,7 +20,8 @@
         font-family:'Times New Roman', Times, serif;  
         font-style: italic;
         color:yellow;
-        background-color: black; 
+        background-color: black;
+        clear:left; 
 }
 
     body{
