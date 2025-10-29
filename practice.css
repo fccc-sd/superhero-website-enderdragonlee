@@ -54,7 +54,8 @@ ul
     background-color:magenta;
 
 }
-Ol{
+Ol
+{
     color:gray;
     font-family:'Times New Roman', Times, serif;
     font-size: 1.1em;  
@@ -66,8 +67,6 @@ br
 {
     background-color:blue;
 } 
-
-
 #thankssection
 {
     color: gray;
@@ -154,4 +153,3 @@ nav a:active
     color:black;
     text-decoration:underline;
 }
-
