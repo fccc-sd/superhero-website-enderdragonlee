@@ -1,67 +1,66 @@
-   br
-{
-    background-color:blue;
-}
+
+
    h1
 {
+    background-color: black;
+    color:yellow;
     text-Align: center;
     font: bold 2.5em/3em 'times New romans',
     small-caps;
     font-size: 2.5em;
-    line-height: 2em;
-}
-    h2
-{
-    font-size: 1.5em;
-}
-    h3
-{
-    font-size: 1.1em;
-}
-    h6
-{
-    line-height:normal;
-}
-    h1,h2,h3,h4,h5,h6
-{
-    font-family:'Times New Roman', Times, serif;
-    font-style: italic;
-    color:yellow;
-    background-color: black;
-    clear:left;
+    line-height: 2em; 
 }
 
-    body
-{
-    background-color:rgb(34, 34, 255);
-    font-family:'Times New Roman';
-    font-size: 1.1em;
+    h2{
+        background-color: black;
+        color:yellow;
+        font-size: 1.5em;  
+        font-style: italic; 
+
 }
-    p
-{
-    background-color:magenta;
-    color:white;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1.1em;
-    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        font-family:'Times New Roman', Times, serif;  
+        font-style: italic; 
+        background-color: black;
+        color:yellow;
+
 }
-    ul
-{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1.1em;
-    font-weight: bold;
-    background-color:magenta;
-    list-style-type:circle;
-    list-style-position: outside;
+    body{
+        background-color:rgb(34, 34, 255); 
+        font-family:'Times New Roman';
+         font-size: 1.1em;  
 }
-    Ol
+    p{
+        background-color:magenta;
+        color:white;
+        font-family:'Times New Roman', Times, serif;
+         font-size: 1.1em;  
+}
+    ul{
+        color:gray;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.1em;  
+        font-weight: bold;
+        background-color:magenta;
+
+}
+    Ol{
+        color:gray;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.1em;  
+        font-weight: bold;
+        background-color:magenta;
+
+}
+br
 {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1.1em;
-    font-weight: bold;
-    background-color:magenta;
-    list-style-type:upper-roman;
-    list-style-position: outside;
+    background-color:blue;
+} 
 }
     #thankssection
 {
@@ -77,28 +76,22 @@
 {
     color: white;
     font-family:'Times New Roman', Times, serif;
+}
 
-}
-    header
-{
-    font-style: italic;
-    color:yellow;
-    background-color: black;
-    font-family:'Times New Roman', Times, serif;
-}
     main
 {
     font-style: italic;
     color:yellow;
     font-family:'Times New Roman', Times, serif;
 }
-    footer
+   footer
 {
     font-style: italic;
     color:yellow;
     background-color: black;
     font-family:'Times New Roman', Times, serif;
 }
+
     article
 {
     font-style: italic;
