@@ -1,3 +1,9 @@
+#Container
+{
+    margin: 0 auto;
+    width: 960px;
+    background-color:rgb(0, 0, 153); 
+}
 h1
 {
     color:yellow;
@@ -5,84 +11,40 @@ h1
     font: bold 2.5em/3em 'times New romans',
     small-caps;
     font-size: 2.5em;
-    line-height: 2em; 
-}
-
-h2
-{
-    background-color: black;
-    color:yellow;
-    font-size: 1.5em;  
+    line-height: 2em;
     font-style: italic; 
-
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
-{
-    font-family:'Times New Roman', Times, serif;  
-    font-style: italic; 
-    background-color: black;
-    color:yellow;
+     
 }
 header
-{
-    background-color:black;
+{   
+    margin: 0 auto;
+    width: 800px;
+    background-color: black;
 }
 body
 {
-    background-color:rgb(34, 34, 255); 
-    font-family:'Times New Roman';
-    font-size: 1.1em;  
-}
-p
-{
-    background-color:magenta;
-    color:white;
-    font-family:'Times New Roman', Times, serif;
+    background-color:rgb(0, 0, 153); 
+    font-family: 'Times New Roman';
     font-size: 1.1em;  
 }
 ul
 {
-    color:gray;
-    font-family:'Times New Roman', Times, serif;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;  
     font-weight: bold;
-    background-color:magenta;
+    background-color: magenta;
 
 }
 Ol
 {
     color:gray;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;  
     font-weight: bold;
-    background-color:magenta;
+    background-color: magenta;
 
 }
-br
-{
-    background-color:blue;
-} 
-#thankssection
-{
-    color: gray;
-    font-family:'Times New Roman', Times, serif;
-}
-#myhobbies
-{
-    color:lightgray;
-    font-family:'Times New Roman', Times, serif;
-}
-.myhobies
-{
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-}
-
 main
 {
     font-style: italic;
@@ -91,65 +53,60 @@ main
 } 
 aside
 {
-    color: yellow;
-    background-color: black;
+    width: 200px;
+    margin:  0 10px 10px 0;
+    padding: 10px;
+    height: 410px;
+    float: left;
 }
 section
 {
-    background-color: white;
+    height: 400;
+    width: 710px;
+    margin: 0 0 10px 0;
+    float: right;
+    padding:10px;
+    background-color: magenta;
+    color:white;
 }
 footer
 {
     font-style: italic;
+    padding-left: 4px;
+    width: fit-content;
     color:yellow;
     background-color: black;
-    font-family:'Times New Roman', Times, serif;
-}
-
-article
-{
-    font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-}
-img
-{
-    vertical-align:middle;
-    background-color: magenta;
-    color:gold;
-    float:left;
-    margin: 5px;
-    clear:left;
-}
-p em
-{ 
-    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    clear:both;
 }
 nav
 {
     background-color: magenta;
-    line-height:200%
+    width: 750px;
+    margin: 0 auto;
+    line-height: 200%
 }
 nav li
 {
-    display:inline;
-    padding-right:40px;
-    list-style-type:none;
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
 }
 nav a:link
 {
-    color:white;
+    color: white;
     text-decoration: none;
 }
 nav a:visited
 {
-    color:white;
+    color: white;
 }
 nav a:hover
 {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 nav a:active
 {
-    color:black;
-    text-decoration:underline;
+    color: black;
+    text-decoration: underline;
 }
