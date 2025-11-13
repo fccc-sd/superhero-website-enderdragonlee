@@ -89,8 +89,9 @@ nav
 nav li
 {
     display: inline;
-    padding-right: 40px;
+    padding-right: 4.166%;
     list-style-type: none;
+    font-size: .75em
 }
 nav a:link
 {

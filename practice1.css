@@ -44,19 +44,41 @@ Ol
     font-weight: bold;
     background-color: magenta;
 }
+img
+{
+    width: 96%;
+    
+}
+#image1
+{
+    max-width: 200px;
+    width: 95.238%;
+    color:gold;
+
+}
+#image2
+{
+    max-width: 200px;
+    width: 95.238%;
+    color:gold; 
+    margin-right: 4.761%;   
+}
 main
 {
     font-style: italic;
     color:yellow;
     font-family:'Times New Roman', Times, serif;
+    font: size 0.9em;
 } 
 aside
 {
+    
     width: 21.875%;
     margin:  0% 1.0416% 1.0416% 0%;
     padding: 1.0416%;
-    height: 410px;
+    padding-bottom: 5px;
     float: left;
+    
 }
 section
 {
@@ -71,7 +93,9 @@ section
 footer
 {
     font-style: italic;
-    padding-left: 0.416%;
+    padding-left: .416%;
+    padding-right: .416%;
+    margin-top: 5px;
     width: fit-content;
     color:yellow;
     background-color: black;
@@ -81,8 +105,8 @@ footer
 nav
 {
     background-color: magenta;
-    width: 83.333%;
-    margin: 0% auto;
+    width: 31.25%;
+    margin: Auto auto;
     line-height: 200%
 }
 nav li
@@ -109,4 +133,19 @@ nav a:active
 {
     color: black;
     text-decoration: underline;
+}
+@media (max-width: 740px)
+{
+    aside,section
+    {
+        float: none;
+        Width:100%;
+        Margin: 0% 0% 1rem 0%;
+    }
+    main img.responcive
+    {
+        Width:100%;
+        max-width:200px;
+        margin: 0% Auto;
+    }
 }
