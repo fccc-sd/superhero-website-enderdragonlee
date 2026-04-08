@@ -144,4 +144,25 @@ nav a:active
     text-decoration:underline;
 }
 /* table section  */
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: magenta;
+    color: white;
+}
+
+th
+{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+td
+{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
 
