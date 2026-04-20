@@ -35,23 +35,45 @@
             
              <p> please enter the name for this order</p>
             customer name <input type="text" name=" customer Name" id="customer-name "autofocus>
-            
-            <p> please enter the pizza size: </p>
+
+            <p>please enter the delivery address</p>
+            delivery address <input id = "delivery address" type="text" name = "delivery address">
+
+            <p>please enter the phone number for this order</p>
+            phone number <input id = "phone number" type = "text" name ="phone number">
+
+
+
+
+            <p> please select the pizza size you want : </p>
             <select name="pizza-size" id="pizza-size">
                 <option value="small"> small </option>
                 <option value="medium"> medium </option>
                 <option value="large"> large </option>
             </select>
             
-            <p>please enter the kind of pizza you want: </p>
+            <p>please select the kind of pizza you want: </p>
             <select name="pizza-kind" id="pizza-kind">
                 <option value="pan"> pan </option>
                 <option value="hand-tossed"> hand tossed </option>
             </select>
 
-            <p> please enter the pizza toppings: </p>
-            <input type="text" name="pizza-toppings" id="pizza-toppings">
+            <p> please select the pizza toppings you want </p>
+            <select name = "toppings" id = "toppings">
+                <option value = "pepperoni"> pepperoni </option>
+                <option value = "cheese"> cheese </option>
+                <option value = "sausage"> sausage </option> 
+                <option value = "bacon"> bacon</option>
+                <option value = "green peppers"> green peppers</option>
+            </select>
+            
 
+
+
+             <p> please enter any notes for this order to be given to the cook </p>
+             notes to the cook <input id = "notes" type = "text" name = "notes">
+
+        </form>    
 
     </body>
 </html>
