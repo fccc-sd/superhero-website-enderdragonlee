@@ -5,9 +5,7 @@
         <meta charset="utf-8">
         <meta name="description" content="my pizza order page">
         <meta name="keywords" content="web, justin, lee, four county">
-        
         <title> My favorite Destiny character</title>
-    
         <link rel="stylesheet" href="justinstyle.css" type="text/css">
     
     </head>
@@ -34,19 +32,18 @@
             <p>please enter the details of your order</p>
             
              <p> please enter the name for this order</p>
-            customer name <input type="text" name=" customer Name" id="customer-name "autofocus>
+            customer name <input type="text" name=" customer Name" id="customer-name "autofocus placeholder = " name for this order">
 
             <p>please enter the delivery address</p>
-            delivery address <input id = "delivery address" type="text" name = "delivery address">
+            delivery address <textarea id = "delivery address" cols=" 50" rows = "1" name = "delivery address" placeholder = "delivery address for this order"></textarea>
 
             <p>please enter the phone number for this order</p>
-            phone number <input id = "phone number" type = "text" name ="phone number" placesholder = " xxx-xxx-xxxx ">
-
-
+            phone number <input id = "phone number" type = "text" name ="phone number" placeholder="xxx-xxx-xxxx">
 
 
             <p> please select the pizza size you want : </p>
             <select name="pizza-size" id="pizza-size">
+                <option value ="" disabled selected> select pizza size </option>
                 <option value="small"> small </option>
                 <option value="medium"> medium </option>
                 <option value="large"> large </option>
@@ -54,12 +51,14 @@
             
             <p>please select the kind of pizza you want: </p>
             <select name="pizza-kind" id="pizza-kind">
+                <option value ="" disabled selected> select pizza kind </option>
                 <option value="pan"> pan </option>
                 <option value="hand-tossed"> hand tossed </option>
             </select>
 
             <p> please select the pizza toppings you want </p>
             <select name = "toppings" id = "toppings">
+                <option value ="" disabled selected> select toppings </option>
                 <option value = "pepperoni"> pepperoni </option>
                 <option value = "cheese"> cheese </option>
                 <option value = "sausage"> sausage </option> 
@@ -67,11 +66,8 @@
                 <option value = "green peppers"> green peppers</option>
             </select>
             
-
-
-
              <p> please enter any notes for this order to be given to the cook </p>
-             notes to the cook <input id = "notes" type = "text" name = "notes">
+             notes to the cook <textarea id = "notes" cols="50" rows = "5" name = "notes" placeholder = "any special instructions for the cook"></textarea>
 
         </form>    
 
