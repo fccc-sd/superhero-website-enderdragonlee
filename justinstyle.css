@@ -173,3 +173,11 @@ caption
     font-style: italic; 
     margin: 5px;
 }
+/* form section  */
+form
+{
+    background-color: magenta;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.1em;  
+}

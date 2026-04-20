@@ -30,15 +30,28 @@
         
         
         <form id = "pizza-order-form" action="pizzaorders.html" method="post">
-            <p> please enter your pizza order details</p>
-            <p> pizza order: <input type="text" name=" pizza order " id=" pizza-order "></p>
-            <p> <input id = "order" type="submit" value="order"></p>
+             
+            <p>please enter the details of your order</p>
+            
+             <p> please enter the name for this order</p>
+            customer name <input type="text" name=" customer Name" id="customer-name "autofocus>
+            
+            <p> please enter the pizza size: </p>
+            <select name="pizza-size" id="pizza-size">
+                <option value="small"> small </option>
+                <option value="medium"> medium </option>
+                <option value="large"> large </option>
+            </select>
+            
+            <p>please enter the kind of pizza you want: </p>
+            <select name="pizza-kind" id="pizza-kind">
+                <option value="pan"> pan </option>
+                <option value="hand-tossed"> hand tossed </option>
+            </select>
+
+            <p> please enter the pizza toppings: </p>
+            <input type="text" name="pizza-toppings" id="pizza-toppings">
 
 
-
-
-
-
-        </form>
     </body>
 </html>
