@@ -26,21 +26,23 @@
             </OL>
         </nav>
         
-        
+        <!-- start of the form -->
         <form id = "pizza-order-form" action="pizzaorders.html" method="post">
              
             <p>please enter the details of your order</p>
             
+            <!-- allows you to enter the customer's name -->
              <p> please enter the name for this order</p>
             customer name <input type="text" name=" customer Name" id="customer-name "autofocus placeholder = " name for this order">
 
+            <!-- allows you to enter the delivery address -->
             <p>please enter the delivery address</p>
             delivery address <textarea id = "delivery address" cols=" 50" rows = "1" name = "delivery address" placeholder = "delivery address for this order"></textarea>
-
+            <!-- allows you to enter the customer's phone number -->
             <p>please enter the phone number for this order</p>
             phone number <input id = "phone number" type = "text" name ="phone number" placeholder="xxx-xxx-xxxx">
 
-
+            <!-- allows you to select the pizza size -->
             <p> please select the pizza size you want : </p>
             <select name="pizza-size" id="pizza-size">
                 <option value ="" disabled selected> select pizza size </option>
@@ -48,7 +50,8 @@
                 <option value="medium"> medium </option>
                 <option value="large"> large </option>
             </select>
-            
+
+            <!-- allows you to select the kind of pizza -->
             <p>please select the kind of pizza you want: </p>
             <select name="pizza-kind" id="pizza-kind">
                 <option value ="" disabled selected> select pizza kind </option>
@@ -56,6 +59,7 @@
                 <option value="hand-tossed"> hand tossed </option>
             </select>
 
+            <!-- allows you to choose toppings -->
             <p> please select the pizza toppings you want </p>
             <select name = "toppings" id = "toppings">
                 <option value ="" disabled selected> select toppings </option>
@@ -65,10 +69,16 @@
                 <option value = "bacon"> bacon</option>
                 <option value = "green peppers"> green peppers</option>
             </select>
-            
+
+            <!-- allows you to leave notes for the cook -->
              <p> please enter any notes for this order to be given to the cook </p>
              notes to the cook <textarea id = "notes" cols="50" rows = "5" name = "notes" placeholder = "any special instructions for the cook"></textarea>
+           
+             <br><br>
+             <!-- allows you to submit your order -->
+            <input type="submit" value="submit order">
 
+            <!-- end of form -->
         </form>    
 
     </body>
