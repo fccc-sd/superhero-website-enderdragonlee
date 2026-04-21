@@ -179,5 +179,6 @@ form
     background-color: magenta;
     color: white;
     font-family:'Times New Roman', Times, serif;
-    font-size: 1.1em;  
+    font-size: 1.1em; 
+    padding: 6px;
 }
