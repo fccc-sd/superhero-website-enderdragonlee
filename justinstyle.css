@@ -66,6 +66,7 @@ br
 {
     background-color:rgb(3, 3, 215); 
 } 
+/*id*/
 #thankssection
 {
     color: gray;
@@ -76,12 +77,13 @@ br
     color:lightgray;
     font-family:'Times New Roman', Times, serif;
 }
+/*class*/
 .myhobies
 {
     color: white;
     font-family:'Times New Roman', Times, serif;
 }
-
+/**/
 main
 {
     font-style: italic;
@@ -181,4 +183,20 @@ form
     font-family:'Times New Roman', Times, serif;
     font-size: 1.1em; 
     padding: 6px;
+}
+/* resizeing section*/
+@media (max-width: 740px)
+{
+    aside,section
+    {
+        float: none;
+        Width:100%;
+        Margin: 0% 0% 1rem 0%;
+    }
+    main img.responcive
+    {
+        Width:100%;
+        max-width:200px;
+        margin: 0% Auto;
+    }
 }
