@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="my javascript projects ">
+        <meta name="kewords" content="web, justin, lee, four county">
+        <title> My favorate Destiny character</title>
+        <link rel="stylesheet" href="justinstyle.css" type="text/css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+
+
+
+    </head>
+    <body>
+        <header>
+            <h1> projects page</h1>
+            
+        </header>
+        <nav>
+            <OL>
+                <li><a href="javascriptProjects.html" title="project page">projects page</a></li>
+                <li><a href="chapter11.html" title="projet for chapter11">project ch11</a></li>
+                
+            
+            </OL>
+        </nav> 
+        <main>
+        <div>
+            <label for="name">your name:</label>
+		    <input type="text" name="name" id="name" autocomplete="off">
+        </div>    
+
+        <div id="accordion">
+            
+            <h3>one</h3>
+            <div>
+                <p>Section 1</p>
+            </div>
+            <h3>two</h3>
+            <div>
+                <p>Section 2</p>
+            </div>
+                <h3>three</h3>
+            <div>
+                <p>Section 3</p>
+            
+                <ul>
+                    <li>hi this is not fun</li>
+                    <li>this stinks</li>
+                    <li>this was not fun to make </li>
+                </ul>
+            </div>
+        </div>
+            
+            
+        
+        <script src="chapter11.js"></script>
+        <script>
+            /*ai code on lines 64-66*/
+            $( "#accordion" ).accordion({
+        collapsible: true, // Allows all sections to be closed at the same time
+        active: false      // Sets the starting open section to none (all closed)
+    });
+        </script>
+
+
+
+
+    </main>
+        <footer>
+            copyright &copy; 2026 Justin lee
+        </footer>
+
+    </body>
+</html>
