@@ -175,6 +175,33 @@ caption
     font-style: italic; 
     margin: 5px;
 }
+    .ui-autocomplete{
+        background-color: white !important;
+        color: black !important;
+        border: 1px solid #ccc;
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+        width: 200px;
+        position: absolute;
+        z-index: 1000;
+}
+    .ui-accordion{
+        background-color: black !important;
+        color: white !important;
+        border: 1px solid #ccc;
+        list-style: none;
+        padding: 5px;
+
+}
+    .ui-menu-item{
+        padding: 4px 8px;
+        cursor: pointer;
+}
+    .ui-menu-item:hover, .ui-state-active{
+        background-color: #5da6f0 !important;
+        color: white !important;
+} 
 /* form section  */
 form
 {
